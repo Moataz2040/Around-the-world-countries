@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
 import CountryList from "../components/CountryList";
 import RegionMenu from "../components/ReigonMenu";
 import SearchInput from "../components/SearchInput";
-import ShowMessage from "../components/ShowMessage";
+import ShowMessage from "../components/showMessage";
 import { useFetchData } from "../hooks/UseFetchData";
 const Home = () => {
   const {
