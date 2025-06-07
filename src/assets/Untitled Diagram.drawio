@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Page-1" id="JWJ1p-N2LJKnIfGDUJl0">
+    <mxGraphModel dx="872" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4etGe1hwTF7_9UHMVfK-1" target="Y4etGe1hwTF7_9UHMVfK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4etGe1hwTF7_9UHMVfK-2" target="Y4etGe1hwTF7_9UHMVfK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-2" value="fetch data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-7" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4etGe1hwTF7_9UHMVfK-4" target="Y4etGe1hwTF7_9UHMVfK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4etGe1hwTF7_9UHMVfK-4" target="Y4etGe1hwTF7_9UHMVfK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-4" value="exist in local storage" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-6" value="fetch data and save in local starage" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4etGe1hwTF7_9UHMVfK-8" target="Y4etGe1hwTF7_9UHMVfK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4etGe1hwTF7_9UHMVfK-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y4etGe1hwTF7_9UHMVfK-8" target="Y4etGe1hwTF7_9UHMVfK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-8" value="render country list" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-10" value="toggle theme" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-14" value="choose reigon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4etGe1hwTF7_9UHMVfK-17" value="search" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
